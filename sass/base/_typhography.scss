@@ -1,0 +1,39 @@
+@use '../utilities/mixin' as set;
+@use '../utilities/variable' as style;
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+   margin: 0;
+   padding:0;
+   box-sizing:border-box;
+   text-decoration: none;
+   outline: none;
+    
+   }
+     
+   html{
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;  
+      overflow-x: hidden;; 
+   }
+   
+   body{
+      font-family: 'Brygada 1918', serif;
+      overflow-x: hidden;;
+   }
+    
+@media (max-width:572px) {
+   
+   html{
+      margin: 0;
+      padding:0;
+      overflow-x: hidden;; 
+   }
+  body{
+      margin: 0;
+      padding:0;
+      overflow-x: hidden;; 
+   }
+}
+   
